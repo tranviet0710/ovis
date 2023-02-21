@@ -11534,7 +11534,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #FE9594;
+  color: #FFF6E3;
 }
 
 h1,
@@ -12601,7 +12601,7 @@ h5,
 }
 
 .product .text h3 a {
-  color: #FE9594;
+  color: #000000;
 }
 
 .product .text p.price {
@@ -13382,7 +13382,7 @@ textarea.form-control {
   position: relative;
   font-size: 40px;
   font-weight: 600;
-  color: #FE9594;
+  color: #000000;
   font-family: "Poppins", Arial, sans-serif;
 }
 
