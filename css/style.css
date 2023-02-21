@@ -3679,6 +3679,8 @@ input[type="button"].btn-block {
   left: auto;
 }
 
+
+
 @media (min-width: 576px) {
   .dropdown-menu-sm-right {
     right: 0;
@@ -13667,8 +13669,16 @@ textarea.form-control {
   color: #000000;
 }
 
+.testimony-wrap .price {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FE9594;
+}
+
 .testimony-wrap .position {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -14410,5 +14420,41 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
+  }
+}
+
+@media (max-width: 768px) {
+  .owl-carousel.home-slider .slider-item-1 {
+    background-image: url(../images/index_page/Banner-1.2\ Tablet.png) !important;
+  }
+
+  .owl-carousel.home-slider .slider-item-2 {
+    background-image: url(../images/index_page/Banner-2.2\ Tablet.png) !important;
+  }
+
+  .banner {
+    background-image: url(../images/aboutus_page/TABLET_banner.jpg) !important;
+  }
+
+  .company-image {
+    background-image: url(../images/aboutus_page/TABLET_company\ image.png) !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .owl-carousel.home-slider .slider-item-1 {
+    background-image: url(../images/index_page/Banner-1.1\ Mobile.png) !important;
+  }
+
+  .owl-carousel.home-slider .slider-item-2 {
+    background-image: url(../images/index_page/Banner-2.3\ Mobile.png) !important;
+  }
+
+  .banner {
+    background-image: url(../images/aboutus_page/MOBILE_banner.jpg) !important;
+  }
+
+  .company-image {
+    background-image: url(../images/aboutus_page/MOBILE_company\ image.png) !important;
   }
 }
