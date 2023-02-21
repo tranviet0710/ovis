@@ -58,3 +58,8 @@
     /* Microsoft Edge */
     color: FE9594;
 }
+
+.image-container {
+    width: 600px;
+    height: 610px;
+}
