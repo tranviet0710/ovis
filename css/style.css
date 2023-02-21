@@ -13462,7 +13462,7 @@ textarea.form-control {
 
 .ftco-services .services .icon span {
   font-size: 50px;
-  color: #fff;
+  color: #FE9594;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -13479,7 +13479,7 @@ textarea.form-control {
   text-transform: uppercase;
   font-weight: 500;
   font-family: "Poppins", Arial, sans-serif;
-  color: #FED0D0;
+  color: #FE9594;
 }
 
 .ftco-services .services .media-body span {
@@ -13664,7 +13664,7 @@ textarea.form-control {
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 0;
-  color: #FE9594;
+  color: #000000;
 }
 
 .testimony-wrap .position {
@@ -13672,6 +13672,7 @@ textarea.form-control {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #000000;
 }
 
 .testimony-wrap .line {

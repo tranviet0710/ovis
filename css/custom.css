@@ -63,3 +63,22 @@
     width: 600px;
     height: 610px;
 }
+
+.shop-now-btn {
+    background: #FFF6E3;
+    border: 1px solid #FFF6E3;
+    color: #FE9594;
+    padding: 0 1rem;
+}
+
+.content-text {
+    font-size: 15px;
+}
+
+.testimony-section a {
+    text-decoration: underline !important;
+}
+
+.text span p {
+    color: black !important;
+}
