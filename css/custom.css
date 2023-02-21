@@ -1,0 +1,60 @@
+@font-face {
+    font-family: iCielBCOldStyle;
+    src: url(../kits/iCielBCOldStyle-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../kits/Lato-Regular.ttf);
+}
+
+.logo {
+    width: 100px;
+    height: 120px;
+}
+
+.nav-custom {
+    background-color: #FFF6E3;
+}
+
+
+.nav-custom a {
+    color: #FE9594;
+}
+
+.more-details-btn {
+    background-color: #FE9594;
+    color: #FFF6E3;
+    font-size: 15px;
+}
+
+.icon-image {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+.special-text {
+    font-family: iCielBCOldStyle !important;
+}
+
+.lato-font {
+    font-family: lato;
+}
+
+
+::placeholder {
+    color: FE9594;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: FE9594;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: FE9594;
+}
