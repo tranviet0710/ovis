@@ -12804,7 +12804,7 @@ h5,
 .ftco-cart .form-control {
   height: 54px !important;
   text-align: center;
-  bordeR: 1px solid rgba(0, 0, 0, 0.05) !important;
+  bordeR: 1px solid rgba(0, 0, 0, 0.3) !important;
   color: #000 !important;
   padding: 0;
   font-size: 14px;
@@ -13271,7 +13271,7 @@ textarea.form-control {
 }
 
 .ftco-footer .ftco-footer-widget ul li {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 0px;
   color: #FE9594;
 }

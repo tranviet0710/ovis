@@ -145,7 +145,7 @@
 }
 
 .product-name {
-    font-size: 15px;
+    font-size: 18px;
     color: #441414;
     margin-bottom: 10px;
     font-weight: 400;
@@ -186,7 +186,7 @@
 
 .cart-total .end {
     text-align: end;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .price {
@@ -241,10 +241,4 @@
     .cart-icon-nav {
         display: none;
     }
-
-    .icon-shopping-bag:before {
-        content: "\f290";
-        color: #FFF6E3;
-    }
-
 }
