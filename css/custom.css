@@ -61,7 +61,7 @@
 
 .image-container {
     width: 600px;
-    height: 610px;
+    /* height: 610px; */
 }
 
 .shop-now-btn {
@@ -92,12 +92,16 @@
         background-image: url(../images/index_page/Banner-2.2\ Tablet.png) !important;
     }
 
-    .banner {
+    .about-banner {
         background-image: url(../images/aboutus_page/TABLET_banner.jpg) !important;
     }
 
     .company-image {
         background-image: url(../images/aboutus_page/TABLET_company\ image.png) !important;
+    }
+
+    .cart-banner {
+        background-image: url(../images/cart/TABLET_banner_Cart.jpg) !important;
     }
 }
 
@@ -110,21 +114,89 @@
         background-image: url(../images/index_page/Banner-2.3\ Mobile.png) !important;
     }
 
-    .banner {
+    .about-banner {
         background-image: url(../images/aboutus_page/MOBILE_banner.jpg) !important;
     }
 
     .company-image {
         background-image: url(../images/aboutus_page/MOBILE_company\ image.png) !important;
     }
+
+    .cart-banner {
+        background-image: url(../images/cart/MOBILE_banner_Cart.jpg) !important;
+    }
+
+}
+
+.product-name {
+    font-size: 15px;
+    color: #441414;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", Arial, sans-serif;
 }
 
 .search-nav {
     display: block;
 }
 
+.yellow-bg {
+    background-color: #fff6e3;
+}
+
 .help-nav {
     display: none;
+}
+
+.product-remove a {
+    border-radius: 10px;
+}
+
+.cart-total span {
+    color: #000;
+}
+
+.cart-total .end {
+    text-align: end;
+    font-size: 20px;
+}
+
+.price {
+    color: #000;
+    font-size: 15px;
+}
+
+.price-before {
+    text-decoration: line-through;
+    color: #b3b3b3;
+}
+
+.price-after {
+    margin-left: 10px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 15px;
+    background: #000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -15px;
 }
 
 @media (max-width: 991.98px) {
