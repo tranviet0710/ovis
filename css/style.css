@@ -12677,6 +12677,7 @@ h5,
 .product-details h3 {
   font-size: 30px;
   font-weight: 400;
+  color: #000;
 }
 
 .product-details .price span {
