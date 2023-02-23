@@ -13270,12 +13270,12 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 .ftco-footer .ftco-footer-widget ul li {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0px;
   color: #FE9594;
 }
@@ -13310,7 +13310,7 @@ textarea.form-control {
 
 .ftco-footer-social li a span {
   position: absolute;
-  font-size: 26px;
+  font-size: 30px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -13491,10 +13491,10 @@ textarea.form-control {
   font-weight: 500;
 }
 
-.ftco-services .services:hover .icon,
-.ftco-services .services:focus .icon {
-  background: #FED0D0;
-}
+/* .ftco-services .services:hover .icon,
+  .ftco-services .services:focus .icon {
+    background: #FED0D0;
+  } */
 
 .ftco-services .services:hover .icon span,
 .ftco-services .services:focus .icon span {
@@ -14420,41 +14420,5 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
-  }
-}
-
-@media (max-width: 768px) {
-  .owl-carousel.home-slider .slider-item-1 {
-    background-image: url(../images/index_page/Banner-1.2\ Tablet.png) !important;
-  }
-
-  .owl-carousel.home-slider .slider-item-2 {
-    background-image: url(../images/index_page/Banner-2.2\ Tablet.png) !important;
-  }
-
-  .banner {
-    background-image: url(../images/aboutus_page/TABLET_banner.jpg) !important;
-  }
-
-  .company-image {
-    background-image: url(../images/aboutus_page/TABLET_company\ image.png) !important;
-  }
-}
-
-@media (max-width: 375px) {
-  .owl-carousel.home-slider .slider-item-1 {
-    background-image: url(../images/index_page/Banner-1.1\ Mobile.png) !important;
-  }
-
-  .owl-carousel.home-slider .slider-item-2 {
-    background-image: url(../images/index_page/Banner-2.3\ Mobile.png) !important;
-  }
-
-  .banner {
-    background-image: url(../images/aboutus_page/MOBILE_banner.jpg) !important;
-  }
-
-  .company-image {
-    background-image: url(../images/aboutus_page/MOBILE_company\ image.png) !important;
   }
 }

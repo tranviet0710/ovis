@@ -82,3 +82,66 @@
 .text span p {
     color: black !important;
 }
+
+@media (max-width: 768px) {
+    .owl-carousel.home-slider .slider-item-1 {
+        background-image: url(../images/index_page/Banner-1.2\ Tablet.png) !important;
+    }
+
+    .owl-carousel.home-slider .slider-item-2 {
+        background-image: url(../images/index_page/Banner-2.2\ Tablet.png) !important;
+    }
+
+    .banner {
+        background-image: url(../images/aboutus_page/TABLET_banner.jpg) !important;
+    }
+
+    .company-image {
+        background-image: url(../images/aboutus_page/TABLET_company\ image.png) !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .owl-carousel.home-slider .slider-item-1 {
+        background-image: url(../images/index_page/Banner-1.1\ Mobile.png) !important;
+    }
+
+    .owl-carousel.home-slider .slider-item-2 {
+        background-image: url(../images/index_page/Banner-2.3\ Mobile.png) !important;
+    }
+
+    .banner {
+        background-image: url(../images/aboutus_page/MOBILE_banner.jpg) !important;
+    }
+
+    .company-image {
+        background-image: url(../images/aboutus_page/MOBILE_company\ image.png) !important;
+    }
+}
+
+.search-nav {
+    display: block;
+}
+
+.help-nav {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .nav-custom {
+        background-color: #FED0D0;
+    }
+
+    .search-nav {
+        display: none;
+    }
+
+    .help-nav {
+        display: block;
+    }
+
+    .icon-shopping-bag:before {
+        content: "\f290";
+        color: #FFF6E3;
+    }
+}
