@@ -242,3 +242,17 @@
         display: none;
     }
 }
+
+@media (max-width: 767.67px) {
+    .form-message {
+        margin-top: 10rem;
+    }
+}
+
+.information-contact a {
+    color: #000;
+}
+
+.information-contact span {
+    text-decoration: underline;
+}
