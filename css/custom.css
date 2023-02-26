@@ -82,67 +82,6 @@
     color: black !important;
 }
 
-@media (max-width: 768px) {
-    .index-section .owl-carousel.home-slider .slider-item-1 {
-        background-image: url(../images/index_page/Banner-1.2\ Tablet.png) !important;
-    }
-
-    .index-section .owl-carousel.home-slider .slider-item-2 {
-        background-image: url(../images/index_page/Banner-2.2\ Tablet.png) !important;
-    }
-
-    .product-single-section .owl-carousel.home-slider .slider-item-1 {
-        background-image: url(../images/product_detail/Artboard\ –\ 2.png) !important;
-    }
-
-    .product-single-section .owl-carousel.home-slider .slider-item-2 {
-        background-image: url(../images/product_detail/Artboard\ –\ 4.png) !important;
-    }
-
-    .about-banner {
-        background-image: url(../images/aboutus_page/TABLET_banner.jpg) !important;
-    }
-
-    .company-image {
-        background-image: url(../images/aboutus_page/TABLET_company\ image.png) !important;
-    }
-
-    .cart-banner {
-        background-image: url(../images/cart/TABLET_banner_Cart.jpg) !important;
-    }
-}
-
-@media (max-width: 375px) {
-    .index-section .owl-carousel.home-slider .slider-item-1 {
-        background-image: url(../images/index_page/Banner-1.1\ Mobile.png) !important;
-    }
-
-    .index-section .owl-carousel.home-slider .slider-item-2 {
-        background-image: url(../images/index_page/Banner-2.3\ Mobile.png) !important;
-    }
-
-    .product-single-section .owl-carousel.home-slider .slider-item-1 {
-        background-image: url(../images/product_detail/Artboard\ –\ 3.png) !important;
-    }
-
-    .product-single-section .owl-carousel.home-slider .slider-item-2 {
-        background-image: url(../images/product_detail/Artboard\ –\ 6.png) !important;
-    }
-
-    .about-banner {
-        background-image: url(../images/aboutus_page/MOBILE_banner.jpg) !important;
-    }
-
-    .company-image {
-        background-image: url(../images/aboutus_page/MOBILE_company\ image.png) !important;
-    }
-
-    .cart-banner {
-        background-image: url(../images/cart/MOBILE_banner_Cart.jpg) !important;
-    }
-
-}
-
 .product-name {
     font-size: 18px;
     color: #441414;
@@ -153,14 +92,14 @@
     font-family: "Poppins", Arial, sans-serif;
 }
 
-.search-nav {
+/* .search-nav {
     display: block;
-}
+} */
 
 
-.help-nav {
+/* .help-nav {
     display: none;
-}
+} */
 
 .cart-text-nav {
     display: none;
@@ -224,30 +163,6 @@
     margin-left: -15px;
 }
 
-@media (max-width: 991.98px) {
-    .search-nav {
-        display: none;
-    }
-
-    .help-nav {
-        display: block;
-    }
-
-    .cart-text-nav {
-        display: block;
-    }
-
-    .cart-icon-nav {
-        display: none;
-    }
-}
-
-@media (max-width: 767.67px) {
-    .form-message {
-        margin-top: 10rem;
-    }
-}
-
 .information-contact a {
     color: #000;
 }
@@ -260,3 +175,113 @@
     width: 1440px;
     height: 1440px;
 } */
+@media (max-width: 768px) {
+    .index-section .owl-carousel.home-slider .slider-item-1 {
+        background-image: url(../images/index_page/Banner-1.2\ Tablet.png) !important;
+    }
+
+    .index-section .owl-carousel.home-slider .slider-item-2 {
+        background-image: url(../images/index_page/Banner-2.2\ Tablet.png) !important;
+    }
+
+    .product-single-section .owl-carousel.home-slider .slider-item-1 {
+        background-image: url(../images/product_detail/Artboard\ –\ 2.png) !important;
+    }
+
+    .product-single-section .owl-carousel.home-slider .slider-item-2 {
+        background-image: url(../images/product_detail/Artboard\ –\ 4.png) !important;
+    }
+
+    .about-banner {
+        background-image: url(../images/aboutus_page/TABLET_banner.jpg) !important;
+    }
+
+    .company-image {
+        background-image: url(../images/aboutus_page/TABLET_company\ image.png) !important;
+    }
+
+    .cart-banner {
+        background-image: url(../images/cart/TABLET_banner_Cart.jpg) !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .index-section .owl-carousel.home-slider .slider-item-1 {
+        background-image: url(../images/index_page/Banner-1.1\ Mobile.png) !important;
+    }
+
+    .index-section .owl-carousel.home-slider .slider-item-2 {
+        background-image: url(../images/index_page/Banner-2.3\ Mobile.png) !important;
+    }
+
+    .product-single-section .owl-carousel.home-slider .slider-item-1 {
+        background-image: url(../images/product_detail/Artboard\ –\ 3.png) !important;
+    }
+
+    .product-single-section .owl-carousel.home-slider .slider-item-2 {
+        background-image: url(../images/product_detail/Artboard\ –\ 6.png) !important;
+    }
+
+    .about-banner {
+        background-image: url(../images/aboutus_page/MOBILE_banner.jpg) !important;
+    }
+
+    .company-image {
+        background-image: url(../images/aboutus_page/MOBILE_company\ image.png) !important;
+    }
+
+    .cart-banner {
+        background-image: url(../images/cart/MOBILE_banner_Cart.jpg) !important;
+    }
+
+    .product-name {
+        font-size: 12px;
+    }
+
+    .quantity-right-plus {
+        padding: 8px 10px !important;
+    }
+
+    .quantity-left-minus {
+        padding: 8px 10px !important;
+    }
+
+    .price-after {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    /* .search-nav {
+        display: none;
+    }
+
+    .help-nav {
+        display: block;
+    } */
+
+    .cart-text-nav {
+        display: block;
+    }
+
+    .cart-icon-nav {
+        display: none;
+    }
+
+    .quantity span {
+        margin: 0px !important;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767.67px) {
+    .form-message {
+        margin-top: 10rem;
+    }
+}

@@ -12802,10 +12802,10 @@ h5,
 
 .ftco-cart button,
 .ftco-cart .form-control {
-  height: 54px !important;
+  /* height: 54px !important; */
   text-align: center;
   bordeR: 1px solid rgba(0, 0, 0, 0.3) !important;
-  color: #000 !important;
+  color: #FE9594 !important;
   padding: 0;
   font-size: 14px;
 }
