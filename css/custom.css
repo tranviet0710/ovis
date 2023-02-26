@@ -203,6 +203,10 @@
     .cart-banner {
         background-image: url(../images/cart/TABLET_banner_Cart.jpg) !important;
     }
+
+    .contact-banner {
+        background-image: url(../images/contact/Banner\ contact-tab.png) !important;
+    }
 }
 
 @media (max-width: 375px) {
@@ -232,6 +236,10 @@
 
     .cart-banner {
         background-image: url(../images/cart/MOBILE_banner_Cart.jpg) !important;
+    }
+
+    .contact-banner {
+        background-image: url(../images/contact/Banner\ contact-mobile.png) !important;
     }
 
     .product-name {
